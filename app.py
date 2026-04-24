@@ -1,6 +1,6 @@
 score = 0
 
-ema200 = df["Close"].rolling(200).mean()
+ema100 = df["Close"].rolling(200).mean()
 ema50 = df["Close"].rolling(50).mean()
 
 # EMA200
